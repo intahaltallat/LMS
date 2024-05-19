@@ -1,4 +1,4 @@
-var mongoose =require("mongoose");
+var mongoose = require("mongoose");
 var studentSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -13,4 +13,4 @@ var studentSchema = new mongoose.Schema({
     required: true,
   },
 });
-module.exports=mongoose.model('Student',studentSchema);
+module.exports = mongoose.model("Student", studentSchema);

@@ -14,7 +14,7 @@ var coursesRouter = require("./routes/courses");
 
 var app = express();
 
-mongoose.connect("mongodb://0.0.0.0:27017/lms").then(
+mongoose.connect("mongodb://0.0.0.0:27017/comsats").then(
   (db) => {
     console.log("Database Connected Successfully");
   },
